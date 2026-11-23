@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GLOBAL</title>
+
+    <link rel="stylesheet" href="./globals.css">
+
+    <!-- Ícones -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <style>
+        .cart-icon {
+            position: fixed;
+            top: 25px;
+            right: 30px;
+
+            width: 45px;
+            height: 45px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            color: #fff;
+            text-decoration: none;
+            font-size: 22px;
+
+            z-index: 9999;
+
+            transition: transform 0.2s ease, opacity 0.2s ease;
+        }
+
+        .cart-icon:hover {
+            transform: scale(1.12);
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <nav class="main-nav">
+
+            <a href="./index.html" class="nav-logo">
+                GLOBAL
+            </a>
+
+            <div class="nav-links">
+                <a href="./index(10).html">SHOP</a>
+                <a href="./index(10).html#ofertas">OFERTAS</a>
+                <a href="./index(10).html#lancamentos">LANÇAMENTOS</a>
+            </div>
+
+        </nav>
+
+        <!-- CARRINHO -->
+        <a
+            href="./carrinho.html"
+            class="cart-icon"
+            aria-label="Carrinho"
+            title="Carrinho"
+        >
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+
+    </header>
+
+    <main>
+        <!-- Conteúdo da sua página aqui -->
+    </main>
+
+</body>
+</html>
